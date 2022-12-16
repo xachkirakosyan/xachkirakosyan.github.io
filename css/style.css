@@ -280,7 +280,6 @@ nav{
 
   /* container 2 ---Process */
 
-
 .div_3{
     width: 100%;
     padding:90px 0px 0px 0px;
@@ -298,18 +297,46 @@ nav{
     text-align: center;
     background: #FFFFFF;
     cursor: pointer;
+    box-shadow: 0px 4px 35px rgba(62, 141, 255, 0.2);
 }
-
-.childen_1 > img{
+.grid_6_child_1:hover{
+    box-shadow: 0px 4px 35px rgb(255, 255, 255);
+}
+.image_2{
     width: 200px;
     height: 200px;
+    margin: 0 auto;
+    padding-top: 8px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.childen_1 > .image_2 >img{
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.childen_1 > .image_2 > img:hover{
+    display: none;
 }
 .childen_1 > p{
-    padding: 13px 0px 0px 0px;
+    padding: 13px 0px 8px 0px;
     font-family: 'inter';
     font-weight: 600;
     font-size: 24px;
 }
+.childen_1 >.image_2 > .p_5{
+    width: 172px;
+    position: absolute;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
 
 
 
