@@ -41,6 +41,13 @@ nav{
     border-top: 3px solid   #484FDC;
 }
 
+.menu_1{
+    height: 50px;
+    margin-top: 3px;
+    padding-top: 14px;
+    text-align: center;
+    list-style: none;
+}
 
 .menu_1 > li{
     display: inline-block;
