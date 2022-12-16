@@ -40,13 +40,12 @@ nav{
     height: 8px;
     border-top: 3px solid   #484FDC;
 }
-.menu_1{
-    height: 50px;
-    margin-top: 3px;
-    padding-top: 14px;
-    text-align: center;
+
+
+.menu_1 > li{
+    display: inline-block;
 }
-.menu_1 > a{
+.menu_1 > li > a{
     font-family:'Inter';
     font-weight: 400;
     font-size: 14px;
@@ -55,7 +54,15 @@ nav{
     text-decoration: none;
     padding: 0px 10px;
 }
-.menu_1 > a:hover{
+.div{
+    display: none;
+    margin-top: 16px;
+    border: 2px solid #484FDC;;
+}
+li:hover .div{
+    display:block;
+}
+.menu_1 > li > a:hover{
     color: #484FDC;
 }
 
