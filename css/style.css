@@ -776,3 +776,45 @@ form > button:active{
      display: none;
    }
 }
+
+
+
+@media screen and (max-width:1024px){
+    .desktop{
+        width: 100%;
+    }
+    .grid_6{     
+        grid-template-columns: repeat(3 ,1fr);       
+    }
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .grid_3{
+        grid-template-columns: repeat(1,1fr);  
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .desktop{
+        width: 100%;
+    }
+    .grid_6{
+        grid-template-columns: repeat(2 ,1fr);  
+    }
+    .grid{     
+        grid-template-columns: repeat(2,1fr);
+    }
+    .div_6_child{
+        display:block;
+        justify-content: center;
+    }
+    form{
+        width: 100%;
+        padding: 50px 20px 50px 20px;
+    }
+}
